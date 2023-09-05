@@ -19,7 +19,7 @@ namespace BlacklistPlugin
     public sealed class Plugin : IDalamudPlugin
     {
         public string Name => "Blacklist Plugin";
-        private const string CommandName = "/bl";
+        private const string CommandName = "/bl"; //xdd
 
         private DalamudPluginInterface PluginInterface { get; init; }
         private PartyListUpdater partyListUpdater { get; set; }
